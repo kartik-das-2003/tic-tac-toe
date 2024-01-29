@@ -1,0 +1,12 @@
+{
+    "name": "BASIC GAME",
+    "version": "1.0",
+    "description": "Project",
+    "manifest_version":3,
+    "author":"KARTIK DAS",
+    "action":
+    {
+        "default_popup":"index.html",
+        "default_title":"KARTIK's TIC-TAC-TOE Game"
+    }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>TIC-TAC-TOE GAME</title>
+</head>
+<body>
+  <div class="game-container" style="background-color: antiquewhite;">
+    <h1>Two Player Tic Tac Toe</h1>
+    <div id="board" class="board">
+      <!-- Tic Tac Toe cells go here -->
+    </div>
+    <p id="status" class="status"></p>
+    <button id="resetButton">New Game</button>
+  </div>
+  <div id="resultModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p id="resultText" class="result-text"></p>
+      <button id="newGameButton" class="new-game-button">Restart</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
